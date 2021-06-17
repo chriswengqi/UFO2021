@@ -1,0 +1,7 @@
+body{
+    background-color: #fcf7de;
+    background-image: url(../backgrounds/homepage.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
