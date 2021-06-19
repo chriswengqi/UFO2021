@@ -57,7 +57,7 @@
     min-width: 1060px;
     color: #d9d9d9;
     font-size: 22px;
-    font-family: BlackBeard,sans-serif;
+    font-family: Garamond,sans-serif;
     border-bottom: 1px solid #000;
     background: #222427;
     background: linear-gradient(180deg,#45484d 0,#222427);
@@ -72,7 +72,19 @@
     }
 }
 
+.fixed-header .fixed-header-inner {
+    width: 1060px;
+    margin: 0 auto
+}
 
+.fixed-header .fixed-header-inner,.fixed-header .header-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
 
 .fixed-header a {
     color: inherit;
@@ -288,7 +300,7 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Garamond, serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
