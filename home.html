@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>e-UFO 16 Puzzle Hunt</title>
+
+  <!-- Meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1200, initial-scale=0">
+  <meta name="google" content="notranslate">
+
+  <!-- Sources -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/hunt.js"></script>
+  <script src="assets/js/jquery-ui.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/support.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/common.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/puzzle.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/home-bg.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-reduced.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <style>
+    .tooltip-title {
+      font-family: Garamond, serif;
+      font-size: 15px;
+      text-align: center;
+    }
+
+    #header-change-contact-info .modal-header-text {
+      font-size: 30px;
+      font-family: Garamond, sans-serif;
+    }
+
+    #header-change-contact-info input {
+      font-family: Garamond, serif;
+      font-size: 22px;
+      line-height: 29px;
+    }
+  </style>
+  
+  <style>
+    .round-list-items{
+      margin: 24px 0;
+      font-family: Garamond, serif;
+      font-size: 24px;
+      font-style: normal;
+    }
+
+    .metapuzzle-item{
+      margin: 24px 0;
+    }
+
+    .final-puzzle-item{
+      margin: 24px 0;
+      font-family: Garamond, serif;
+      font-size: 24px;
+      font-style: normal;
+    }
+
+    .support-header{
+        font-family: Garamond, serif;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 1em 0;
+    }
+  </style>
+
+</head>
+
+
+<body>
+  <div class="fixed-header">
+    <div class="fixed-header-inner" id="header-bar">
+      <div class="header-links">
+        <div class="dropdown">
+          <button class="dropbtn">USEFUL LINKS 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content-wrapper">
+            <div class="dropdown-link"><a href="list_of_puzzles.html">List of Puzzles</a></div>
+            <div class="dropdown-link"><a href="faq.html">FAQs</a></div>
+            <div class="dropdown-link"><a href="leaderboard.html">Leaderboard</a></div>
+            <div class="dropdown-link"><a href="errata.html">Errata</a></div>
+            <div class="dropdown-link"><a href="credits.html">Credits</a> </div>                                                          
+          </div>
+                   
+        </div> 
+        <!-- <div class="header-link"><div class="fixed-header-centred-text"><a href="home.html">MSL e-UFO Puzzle Hunt 2021</a></div></div> -->
+      </div>
+    </div>
+  </div>
+
+
+  <div class="overall-layout-body">
+    <div id="main-page-content">
+        <div class="title-text">Welcome to Puzzle Hunt: Murder Mystery!</div>
+    
+        <div class="support-section" id="intro">
+          <div class="support-header">Start Here!</div>
+          <p>
+            Watch this promo video as a start! (Promo Video will be out soon btw!) <br> <br>
+    
+            Derek has been murdered! You have always dreamt of being a detective so now is you chance to prove yourself! 
+            But before that, you are to time travel across different timelines and eras to solve puzzles in order to 
+            accumulate experience and hone your problem solving skills. This is where the time machine comes into the equation.
+            Once you are done with the puzzles, you will be prepared to be the one who solves Derek's murder mystery! <br><br>
+
+            What are you waiting for? Click on <a href="list_of_puzzles.html" target="_blank" style="color: red">this</a> to start!
+            
+            
+            <ul>
+              <li>The slides used during the Puzzle Hunt Briefing can be found <a href="https://docs.google.com/presentation/d/1izKV1MJlDaGEzhc-NRGnvq6tvG_n-Arppan0X4pvF7o/edit?usp=sharing" target="_blank">here</a>.</li>
+              <li>The manual tracker mentioned during the briefing can be found <a href="https://docs.google.com/spreadsheets/d/1sKffB1fUiCDyd-udXvj-gyteXyC5quwLNDxdbAZl-Us/edit?usp=sharing" target="_blank">here</a>.</li>
+            </ul>
+          </p>
+        </div>
+
+        <div class="support-section" id="structure">
+            <div class="support-header">Structure of the Puzzle Hunt</div>
+            <p>
+              This hunt will be split into 2 parts, part 1 on the first day and part 2 on the second day. 
+              After you have solved everything (or voided everything), you will need to use all the answers on that day to solve the metapuzzle on that day. 
+              The metapuzzle on each day will lead you to 2 important clues to solve the murder.<br> <br>
+                
+              <ul>
+                <li>On day 1, the metapuzzle leads to the murder location.</li>
+                <li>On day 2, the metapuzzle leads to the murder weapon.</li>
+              </ul>
+            </p>
+
+                Once you are done with both days, on the third day the final puzzle will make use of 6 of the answers (3 in day 1 and 3 in day 2) as an answer.
+                With that, you will be able to solve the murder mystery by fingding out the murder!
+              
+              
+              <ul>
+                <li>The slides used during the Puzzle Hunt Briefing can be found <a href="https://docs.google.com/presentation/d/1izKV1MJlDaGEzhc-NRGnvq6tvG_n-Arppan0X4pvF7o/edit?usp=sharing" target="_blank">here</a>.</li>
+                <li>The manual tracker mentioned during the briefing can be found <a href="https://docs.google.com/spreadsheets/d/1sKffB1fUiCDyd-udXvj-gyteXyC5quwLNDxdbAZl-Us/edit?usp=sharing" target="_blank">here</a>.</li>
+              </ul>
+            </p>
+          </div>
+      
+        <div class="support-section" id="submissions">
+          <div class="support-header">Submissions</div>
+          After logging in, you will able to submit the answer for each puzzle on the respective puzzle pages.
+          Please contact your OGL for the Team Name and Password.
+          Some important points to note:
+          <ul>
+            <li>Only one person from each team needs to submit the answer for each puzzle.</li>
+            <li>Submit your answer using only the characters a-zA-Z, and spaces.</li>
+            <li>After each submission, you should receive one of 2 responses. 
+              ("Correct" or "Incorrect")</li>
+              <li>You can go to the <a href="puzzle.html" target="_blank">puzzle list</a> for an overview of your team's progress.</li>
+          </ul>
+        </div>
+    
+        <div class="support-section" id="hints">
+          <div class="support-header">Hints</div>
+          Each team will be given 10 hint credits at the start of the hunt.
+          Hints for all puzzles cost 1 credit, including metapuzzles and the final puzzle.   
+          You can be assured that if more than 1 team requests a hint for the same puzzle, they will receive the same hint.
+          
+        </div>
+
+        <div class="support-section" id="void">
+            <div class="support-header">Voiding</div>
+            If you realise the question is too hard, you can choose to void it without deducting your puzzles. 
+            With that you can get the answer to the question so that you can use it for the metapuzzles/final puzzle. 
+            Void at your own risk, any voids will not be reversible.
+          </div>
+    
+        <div class="support-section" id="scoring">
+          <div class="support-header">Scoring</div>
+          We use a simple scoring system for this puzzle hunt.
+          The leaderboard can be found <a href="leaderboard.html" target="_blank">here</a> (Leaderboard as of now is still not ready yet!!)
+          Details are as follows:
+          <ul>
+            <li>Each team starts with 10 base points.</li>
+            <li>Each puzzle is worth 1-10 points, depending on the difficulty.</li>
+            <li>Each metapuzzle is worth 6 points.</li>
+            <li>The final puzzle (metametapuzzle) is worth 10 points.</li>
+          </ul>
+        </div>
+    
+        <div class="support-section" id="technical">
+          <div class="support-header">Technical Issues</div>
+          The features of this site have primarily been tested with Chrome. 
+          It is best viewed on a laptop/desktop PC and not a phone.
+          If you've found an error in a puzzle or a link is broken, contact any of the programmes member (Shi Hong, Brenda, Chris, Shu Sheng and Kai Yi). 
+          You can also email us for clarifications.
+        </div>
+        <div class="support-section" id="important">
+          <div class="support-header">IMPORTANT</div>
+          <p>
+            <ul>
+              <li>For urgent matters regarding the hunt, please PM any of the programmes team.</li>
+              <li>Voiding puzzles and requesting for hints through the system are irreversible options, we will not entertain requests to revert these actions.</li>
+            </ul>
+          </p>
+        </div>
+    
+        <div class="support-section" id="updates">
+          <div class="support-header">Updates</div>
+          <ul>
+            <li>
+              If there are any changes to the puzzles (due to any errors), it will be announced at the <a href="errata.html" target="_blank">errata</a> page.
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+    
+    
+    
+    
+
+
+    
+
+
+
+  </div>
+</body>
+</html>
