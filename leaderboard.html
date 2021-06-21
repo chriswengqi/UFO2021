@@ -55,24 +55,36 @@
   </style>
   
   <style>
-    .round-list-items{
-      margin: 24px 0;
-      font-family: Garamond, serif;
-      font-size: 24px;
-      font-style: normal;
+    table {
+      border: 3px solid black;
+      border-collapse: collapse;
+      width: 80%;
+      margin: auto;
+      table-layout: fixed;
+    }
+    th {
+      border: 3px solid black;
+      padding: 10px;
+      text-align: center;
+      font-weight: normal;
+      font-size: 32px;
+      font-family: Garamond,sans-serif;
+    }
+    td {
+      border: 1px solid black;
+      font-family: Garamond,serif;
+      font-size: 22px;
+      padding: 12px;
+      text-align: center;
+      text-transform: capitalize;
     }
 
-    .metapuzzle-item{
-      margin: 24px 0;
-    }
-
-    .final-puzzle-item{
-      margin: 24px 0;
-      font-family: Garamond, serif;
-      font-size: 24px;
-      font-style: normal;
+    tr:nth-child(even){
+      background-color: rgba(211, 211, 211, 0.25);
     }
   </style>
+
+
 
 </head>
 
