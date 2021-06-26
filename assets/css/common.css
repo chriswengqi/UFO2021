@@ -134,17 +134,6 @@
 }
 
   
-  .fixed-header-centred-text {
-    margin: auto;
-    font-size: 24px;
-    color: white;
-    text-align: center;
-    padding-top: 16px;
-    text-decoration: none;
-    font-family: Garamond, serif;
-  }
-
-  
   
   .dropdown {
     float: left;
@@ -163,11 +152,7 @@
     margin: 0;
   }
   
-  
 
-  .fixed-header-centred-text:hover {
-    background-color: none;
-  }
   
   .dropdown-content-wrapper {
     display: block;
@@ -398,7 +383,7 @@ ul {
 
 #main-page-content {
     margin: 30px auto;
-    padding: 30px 60px;
+    padding: 60px 100px;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     width: 1020px;
