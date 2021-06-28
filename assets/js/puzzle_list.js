@@ -88,13 +88,13 @@ function renderScoreWeightage() {
         puzzle.firstElementChild.insertAdjacentElement('afterend', span);
     }
 
-    fetch('https://nusmsl.com/api/puzzle', option)
+/*    fetch('https://nusmsl.com/api/puzzle', option)
         .then((res) => res.json())
         .then((data) => {
             for (const { puzzle_id, score } of data) {
                 displayPuzzleScore(puzzle_id, score);
             }
-        });
+        }); */
 }
 
 /// HTML for login
