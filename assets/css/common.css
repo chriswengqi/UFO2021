@@ -20,39 +20,6 @@
 }
 
 
-@font-face{
-    font-family: BlackBeard;
-    font-style: normal;
-    font-weight: normal;
-    src: url(./../fonts/BlackBeard.woff)
-}
-
-@font-face{
-    font-family: CrimsonText-Regular;
-    font-style: normal;
-    font-weight: normal;
-    src: url(./../fonts/CrimsonText-Regular.woff)
-}
-
-@font-face {
-    font-family: CrimsonText-Regular;
-    src: url(./../fonts/CrimsonText-Italic.woff);
-    font-style: italic
-}
-
-@font-face {
-    font-family: CrimsonText-Regular;
-    src: url(./../fonts/CrimsonText-Bold.woff);
-    font-weight: 700
-}
-
-@font-face {
-    font-family: CrimsonText-Regular;
-    src: url(./../fonts/CrimsonText-BoldItalic.woff);
-    font-weight: 700;
-    font-style: italic
-}
-
 .fixed-header {
     min-width: 1060px;
     color: #d9d9d9;
